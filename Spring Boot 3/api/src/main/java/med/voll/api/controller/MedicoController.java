@@ -36,4 +36,10 @@ public class MedicoController {
 
   }
 
+  @PutMapping
+  @Transactional
+  public void atualizar(@RequestBody @Valid DadosCadastroMedico dados){
+
+  }
+
 }
