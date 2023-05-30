@@ -43,4 +43,10 @@ public class MedicoController {
 
   }
 
+  @DeleteMapping("/{medicoid}")
+  @Transactional
+  public void excluir(@PathVariable Long medicoid){
+    repository.deleteById(medicoid);
+  }
+
 }
