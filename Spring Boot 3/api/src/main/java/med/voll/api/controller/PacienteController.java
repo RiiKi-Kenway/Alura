@@ -30,8 +30,15 @@ public class PacienteController {
     @PutMapping
     @Transactional
     public void atualizar(@RequestBody @Valid DadosAtualizacaoPaciente dados) {
-        var paciente = repository.getReferenceById(dados.id());
+        var paciente = repository.getReferenceById(dados.pacienteid());
         paciente.atualizarInformacoes(dados);
+    }
+
+    @DeleteMapping("/{pacienteid}")
+    @Transactional
+    public void excluir(@PathVariable Long pacienteid) {
+        var paciente = repository.getReferenceById(pacienteid);
+        paciente.excluir();
     }
 
 }

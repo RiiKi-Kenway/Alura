@@ -12,11 +12,11 @@ import med.voll.api.endereco.Endereco;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@EqualsAndHashCode(of = "id")
+@EqualsAndHashCode(of = "pacienteid")
 public class Paciente {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long pacienteid;
     private String nome;
     private String email;
 
@@ -49,6 +49,10 @@ public class Paciente {
             this.endereco.atualizarInformacoes(dados.endereco());
         }
 
+    }
+
+    public void excluir() {
+        this.ativo = false;
     }
 
 }
