@@ -4,16 +4,16 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 
 public record DadosEndereco(
-        @NotBlank
+        @NotBlank(message = "{endereco.logradouro.notBlank}")
         String logradouro,
-        @NotBlank
+        @NotBlank(message = "{endereco.bairro.notBlank}")
         String bairro,
-        @NotBlank
-        @Pattern(regexp = "\\d{8}")
+        @NotBlank(message = "{endereco.cep.notBlank}")
+        @Pattern(regexp = "\\d{8}", message = "{endereco.cep.invalido}")
         String cep,
-        @NotBlank
+        @NotBlank(message = "{endereco.cidade.notBlank}")
         String cidade,
-        @NotBlank
+        @NotBlank(message = "{endereco.uf.notBlank}")
         String uf,
         String complemento,
         String numero) {
