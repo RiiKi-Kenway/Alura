@@ -1,0 +1,27 @@
+_id: req_4a1feb36750147b28fc197c31fa8db92
+type: Request
+parentId: wrk_8105f4e37e7b47f49c1efbfd96124ecd
+modified: 1694049899040
+created: 1690934069606
+url: http://localhost:8080/medicos/1
+name: Detalhar Médico
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_b1812601f5764bdd993bd66c3eae7f21
+    name: Accept-Language
+    value: pt-br
+    description: ""
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyaWNhcmRvLnZhbGVudGVAdm9sbC5tZWQiLCJpc3MiOiJBUEkgVm9sbC5tZWQiLCJleHAiOjE2OTMzNjUyOTB9.bOEuRy83sRCSsfNU9Woym54-MorvrbqvSQBnnFm316c
+metaSortKey: -1690934069606
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

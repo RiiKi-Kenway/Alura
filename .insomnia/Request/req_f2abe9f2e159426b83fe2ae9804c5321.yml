@@ -1,0 +1,21 @@
+_id: req_f2abe9f2e159426b83fe2ae9804c5321
+type: Request
+parentId: wrk_8105f4e37e7b47f49c1efbfd96124ecd
+modified: 1688008765159
+created: 1688007080024
+url: http://localhost:8080/medicos/7
+name: Excluir Médico
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1688007080024
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

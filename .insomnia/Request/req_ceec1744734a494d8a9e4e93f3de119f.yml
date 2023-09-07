@@ -1,0 +1,29 @@
+_id: req_ceec1744734a494d8a9e4e93f3de119f
+type: Request
+parentId: wrk_8105f4e37e7b47f49c1efbfd96124ecd
+modified: 1690337204082
+created: 1688007189441
+url: http://localhost:8080/medicos
+name: Atualizar Médico
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"medicoid" : 1,
+    	"telefone" : "1234567654"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1688007189441
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

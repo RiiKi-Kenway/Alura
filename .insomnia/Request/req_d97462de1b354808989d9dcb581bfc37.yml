@@ -1,0 +1,24 @@
+_id: req_d97462de1b354808989d9dcb581bfc37
+type: Request
+parentId: wrk_8105f4e37e7b47f49c1efbfd96124ecd
+modified: 1693358179882
+created: 1688007215558
+url: http://localhost:8080/medicos
+name: Listar Médico
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyaWNhcmRvLnZhbGVudGVAdm9sbC5tZWQiLCJpc3MiOiJBUEkgVm9sbC5tZWQiLCJleHAiOjE2OTMzNjUyOTB9.bOEuRy83sRCSsfNU9Woym54-MorvrbqvSQBnnFm316c
+  disabled: false
+metaSortKey: -1688007215558
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,44 @@
+_id: req_b0a30c546ba94d499831a64ded9fb43e
+type: Request
+parentId: wrk_8105f4e37e7b47f49c1efbfd96124ecd
+modified: 1691628458981
+created: 1688007232244
+url: http://localhost:8080/medicos
+name: Cadastrar Médico
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "Rafael Queiroz",
+    	"email": "rafael.queiroz@voll.med",
+    	"crm": "467432",
+    	"telefone": "54546487",
+    	"especialidade": "ORTOPEDIA",
+    	"endereco": {
+    		"logradouro": "Rua Santa Luzia",
+    		"bairro": "Sao Miguel",
+    		"cep": "45657600",
+    		"cidade": "Ilheus",
+    		"uf": "BA"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2eebaf409cce4719a5628d9c52e006de
+  - id: pair_3157b564cf7d45cfbf4aa4cfd7ab9ee4
+    name: Accept-Language
+    value: pt-br
+    description: ""
+authentication: {}
+metaSortKey: -1688007232244
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
