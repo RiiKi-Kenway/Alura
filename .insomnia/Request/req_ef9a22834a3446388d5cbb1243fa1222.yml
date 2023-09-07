@@ -1,0 +1,31 @@
+_id: req_ef9a22834a3446388d5cbb1243fa1222
+type: Request
+parentId: wrk_b7a95f53b6814e028f1cb91e15d3e805
+modified: 1692837977483
+created: 1692133070307
+url: http://localhost:8080/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"login": "ricardo.valente@voll.med",
+    	"senha": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.2
+authentication: {}
+metaSortKey: -1692133070307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
