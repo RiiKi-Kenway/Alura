@@ -1,0 +1,21 @@
+_id: req_aa541d1a08fc48a984f459ecf48fa7ad
+type: Request
+parentId: wrk_016ed8aefc0a4c6784e8a960362062a1
+modified: 1688007513962
+created: 1688007385099
+url: http://localhost:8080/pacientes
+name: Listar Paciente
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1688007456471.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

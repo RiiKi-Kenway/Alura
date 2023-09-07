@@ -1,0 +1,21 @@
+_id: req_d5617408ec0845df954e31586b6b58f3
+type: Request
+parentId: wrk_016ed8aefc0a4c6784e8a960362062a1
+modified: 1690935976237
+created: 1690935951068
+url: http://localhost:8080/pacientes/1
+name: Detalhar Paciente
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1690935951068
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

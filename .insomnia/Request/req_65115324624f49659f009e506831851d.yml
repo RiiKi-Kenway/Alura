@@ -1,0 +1,21 @@
+_id: req_65115324624f49659f009e506831851d
+type: Request
+parentId: wrk_016ed8aefc0a4c6784e8a960362062a1
+modified: 1688007470325
+created: 1688007450673
+url: http://localhost:8080/pacientes
+name: Atualizar Paciente
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1688007450673
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

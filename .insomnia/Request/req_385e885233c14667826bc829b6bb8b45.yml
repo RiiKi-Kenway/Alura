@@ -1,0 +1,41 @@
+_id: req_385e885233c14667826bc829b6bb8b45
+type: Request
+parentId: wrk_016ed8aefc0a4c6784e8a960362062a1
+modified: 1694049957360
+created: 1688007426413
+url: http://localhost:8080/pacientes
+name: Cadastrar Paciente
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+        "nome": "Joilson Leoncio",
+        "email": "juca@hotmail.com",
+        "telefone": "73988441122",
+        "cpf": "038.321.655-45",
+        "endereco": {
+            "logradouro": "rua epinal",
+            "bairro": "conceicao",
+            "cep": "12345678",
+            "cidade": "Itabuna",
+            "uf": "BA",
+            "numero": "340"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyaWNhcmRvLnZhbGVudGVAdm9sbC5tZWQiLCJpc3MiOiJBUEkgVm9sbC5tZWQiLCJleHAiOjE2OTQwNTY5ODZ9._EhrFY3nIsYfiiELB3w6Db2XA38KlQXdQrDvmdVMfME
+metaSortKey: -1688007462270
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
