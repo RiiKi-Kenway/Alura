@@ -46,7 +46,7 @@ public class PagamentoController {
 //        Message message = new Message(("Criei um pagameto com o id " + pagamento.getId()).getBytes());
 //        rabbitTemplate.send("pagameto.concluido", message);
 
-        rabbitTemplate.convertAndSend("pagameto.concluido", pagamento);
+        rabbitTemplate.convertAndSend("pagamentos.ex","pagamento.concluido", pagamento);
 
         return ResponseEntity.created(endereco).body(pagamento);
     }
